@@ -56,17 +56,18 @@ def train_model(model, train_loader, criterion, optimizer, epochs):
     print(f'Epoch [{epoch+1}/{epochs}],Loss:{loss.item():.4f}')
 ```
 ## Dataset Information
-![image](https://github.com/user-attachments/assets/fd202505-2a62-46b7-8a6e-14fd57b2a6cb)
+<img width="1335" height="258" alt="Screenshot 2026-02-24 150711" src="https://github.com/user-attachments/assets/c142db8e-e22a-489c-b9b0-48c115d8073e" />
+
 
 ## OUTPUT
 ### Confusion Matrix
-![image](https://github.com/user-attachments/assets/199baf24-362b-47b2-8fe1-25222df82a89)
+<img width="758" height="587" alt="Screenshot 2026-02-24 150622" src="https://github.com/user-attachments/assets/34a129f0-a380-4a80-87f4-bcdf6a4d4fe6" />
 
 ### Classification Report
-![image](https://github.com/user-attachments/assets/d3f7b504-ffd5-4511-9558-018c5f74a0d4)
+<img width="1402" height="570" alt="Screenshot 2026-02-24 150811" src="https://github.com/user-attachments/assets/b153c8f9-223a-4d0f-9910-2eb1d3d22e48" />
 
 ### New Sample Data Prediction
-![image](https://github.com/user-attachments/assets/81f44d53-7845-4397-9c7f-fc5d92fa06c1)
+<img width="769" height="102" alt="Screenshot 2026-02-24 150824" src="https://github.com/user-attachments/assets/de897a97-88e8-499a-b6d2-e270c432a6fd" />
 
 ## RESULT
 Thus a neural network classification model for the given dataset is executed successfully.
